@@ -10,3 +10,9 @@ footer {
   margin-top: 2em;
   background: red;
 }
+
+
+.button.-flower {
+  color: #FE8CDF;
+  background: $flower;
+}
