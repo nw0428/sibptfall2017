@@ -6,11 +6,12 @@ body {
 
 nav {
     position: relative;
-    width: 800px; /**adjust width as needed**/
+    width: flex;
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    border: 1px dotted #000000;
+    font-family: "American Typewriter";
+    font-size: 20px;
 }
 
 nav ul {
@@ -38,10 +39,6 @@ nav li a {
     border-top: none;
     color:#000;
 }
-
-/**alternating background colors**/
-nav li:nth-child(odd) > a { background: #CAD3D3}
-nav li:nth-child(even) > a { background: #9BBB59}
 
 /**top menu style on mouse over**/
 nav li:hover > a{
