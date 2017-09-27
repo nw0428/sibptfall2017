@@ -1,0 +1,92 @@
+body {
+    background-color: #FFFFFF;
+}
+
+/* BEGIN HORIZONTAL DROP-MENU */
+
+nav {
+    position: relative;
+    width: 800px; /**adjust width as needed**/
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    border: 1px dotted #000000;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0
+}
+
+nav li {
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    text-align: center;
+}
+
+/**top level menu**/
+nav li a {
+    display: block;
+    text-decoration: none;
+    margin-right: 12px; /* space between links */
+    width: 9em; /* adjust as needed or use auto */
+    padding: 8px;
+    font-weight: bold;
+    line-height: 1.50em;
+    border: 1px dotted #666;
+    border-top: none;
+    color:#000;
+}
+
+/**alternating background colors**/
+nav li:nth-child(odd) > a { background: #CAD3D3}
+nav li:nth-child(even) > a { background: #9BBB59}
+
+/**top menu style on mouse over**/
+nav li:hover > a{
+    color: #FFF;
+    background: #004A43;
+}
+
+/**sub-menu**/
+nav li ul {
+    display: none;
+    text-align: center;
+    margin: 0;
+    padding: 0 1em;
+    background: none;
+}
+
+/**sub-menu, help for older IE**/
+nav li:hover ul, nav li.hover ul {
+    display: block;
+    position: absolute;
+    padding: 0;
+}
+
+nav li:hover li, nav li.hover li { float: none; }
+
+/**drop-menu style**/
+nav li:hover li a, nav li.hover li a {
+    width: 9em; /* adjust width as needed or use auto */
+    margin-top: 0;
+}
+
+/**drop-menu style on mouse over**/
+nav li li a:hover {
+    background:#D3E1B7;
+    color: #004A43;
+}
+
+/* Clear floated elements at the end*/
+nav:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/**END HORIZONTAL DROP-MENUS STYLES**/
