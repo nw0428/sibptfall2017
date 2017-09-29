@@ -1,0 +1,147 @@
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+
+	background: url("../images/map5.jpg");
+}
+
+
+p {
+	color: black;
+}
+
+.about_me {
+	text-align: center;
+	font-weight: bold;
+}
+
+.container {
+	margin: 0 auto 0 auto;
+	width: 950px;
+}
+.Lebanon {
+	width: 600px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	padding: 25px;
+	margin-right: 10px;
+
+}
+
+.Turkey {
+	width: 600px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	padding: 25px;
+	margin-right: 10px;
+}
+
+.SriLanka {
+	width: 600px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	padding: 25px;
+	margin-right: 10px;
+}
+
+a {
+	color: #49494b;
+}
+
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 48px;
+  font-family: "Bitter",serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.Beirut {
+  padding-top: 10px 30px 10px 30px;
+  background: #e74c3c;
+  color: white;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.Beirut:hover {
+	background: #abc9c;
+	border-radius: 35px;
+	transition: all 1s
+}
+
+.swagButton {
+	color: #31A6FF;
+	font-family: "proxima nova";
+	font-weight: 100;
+	font-size: 56px;
+	text-align: center;
+	border: solid 2px #31A6FF;
+	border-radius: 50px;
+	padding: 10px 80px;
+	transition-duration: 200ms;
+
+}
+
+.swagButton:hover {
+	background-color: #31A6FF;
+	color: #fff;
+}
+
+body > div :nth-of-type(3) > a {
+	text-decoration: inherit;
+}
+
+.ghost {
+	font-family: "calibri";
+	color: pink;
+	border:1px solid pink;
+	display: inline-block;
+	width: 200px;
+	padding: 8px;
+	margin:10px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: color 0.3s ease-out, background-color 0.3s ease-out;
+	transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+.ghost:hover, .ghost:focus {
+	border-color: purple;
+	-webkit-transition: color 0.3s ease-out, background-color 0.3s ease-in;
+	transition: color 0.3s ease-out, background-color 0.3s ease-in; 
+	position: absolute;
+    top: 50px;
+    right: 0px;
+    float: right;
+}
+
+.sidebar {
+	width: 600px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	padding: 25px;
+	margin-right: 10px;
+        
+}
+
+.clip {
+	position: center;
+	margin-right: 80px;
+	margin-left: 60px;
+}
